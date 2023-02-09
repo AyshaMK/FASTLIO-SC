@@ -68,6 +68,10 @@ target_link_libraries(alaserPGO
 add_executable(kittiHelper src/kittiHelper.cpp)
 target_link_libraries(kittiHelper ${catkin_LIBRARIES} ${PCL_LIBRARIES} ${OpenCV_LIBS})
 
+install(DIRECTORY launch
+       DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
+)
+
 
 
 
