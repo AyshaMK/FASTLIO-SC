@@ -55,7 +55,7 @@ find_package(catkin REQUIRED COMPONENTS
   message_generation
   eigen_conversions
 )
-add_dependencies(fastlio_mapping fast_lio_generate_messages_cpp)
+
 find_package(Eigen3 REQUIRED)
 find_package(PCL 1.8 REQUIRED)
 
