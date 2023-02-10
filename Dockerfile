@@ -24,5 +24,4 @@ RUN cd /catkin_ws && \
     rosdep update && \
     rosdep install --from-paths src --ignore-src --rosdistro=${ROS_DISTRO} -y && \
     catkin config --install && \
-    ./install/setup.sh \
     catkin build -j1
